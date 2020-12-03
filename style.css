@@ -1,0 +1,61 @@
+body {
+     font-size: 15pt;
+    background-image: url('/assets/hatterkep.png');
+    background-repeat:repeat;
+    font-family: consolas , courier, sans-serif;
+  }
+  section {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height:  25pt;
+}
+  .navbar {
+    background:#333333;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #ff0099;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .nav-link {
+    margin-right: 1em ;
+  }
+  .nav-link:hover {
+    color: #ffffff;
+    font-family: 'Syne Mono', monospace;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  section>h1{
+    font-size: 35pt;
+    padding-top: 80pt;
+    padding-bottom: 15pt;
+    font-weight: bold;
+    font-family: 'Syne Mono', monospace;  }
+  section>h3{
+    color: #ff0099;
+    font-size: 30pt;
+    font-family: 'Syne Mono', monospace;
+  }
+ 
+  article{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  article>h1{
+    margin-top: 30pt;
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+  }
+
+  article>h3{
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: 'Syne Mono', monospace;
+  }
+
+  p.bold{
+    font-weight:  bolder;
+  }
